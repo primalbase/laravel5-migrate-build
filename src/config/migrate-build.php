@@ -1,7 +1,7 @@
 <?php
 return [
-  'client_key_path' => base_path('bfr-trainers-e3ea155d1295.json'),
-  'spread_sheet_id' => '1ydTAqyKgrSVwABhTUP7FAggAmrjvutwsKbksRbJD41Y',
+  'client_key_path' => '',
+  'spread_sheet_id' => '',
   'available_sheet_definition' => [
     'position' => 'A1',
     'value'    => "テーブル定義書"

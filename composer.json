@@ -1,5 +1,12 @@
 {
     "name": "primalbase/laravel5-migrate-build",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hiroshi Kawai",
+            "email": "kawai@primalbase.jp"
+        }
+    ],
     "require": {
         "google/apiclient": "^2.0"
     }
