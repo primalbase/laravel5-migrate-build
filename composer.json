@@ -8,6 +8,7 @@
         }
     ],
     "require": {
+        "doctrine/dbal": "^2.5",
         "google/apiclient": "^2.0"
     },
     "autoload": {
