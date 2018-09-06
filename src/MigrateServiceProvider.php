@@ -14,8 +14,7 @@ class MigrateServiceProvider extends ServiceProvider
 
   public function register()
   {
-    $this->app['primalbase::migrate-build'] = $this->app->share(function($app)
-    {
+    $this->app->singleton('primalbase::migrate-build', function ($app) {
       return new MigrateBuild;
     });
 
