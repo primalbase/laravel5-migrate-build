@@ -18,9 +18,9 @@ class MigrateServiceProvider extends ServiceProvider
       return new MigrateBuild;
     });
 
-    $this->commands(array(
+    $this->commands([
       \Primalbase\Migrate\Console\Commands\MigrateBuild::class,
-    ));
+    ]);
 
     $this->mergeConfigFrom(
       __DIR__.'/config/migrate-build.php', 'migrate-build'
