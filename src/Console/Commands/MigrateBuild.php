@@ -46,10 +46,6 @@ class MigrateBuild extends Command
         $this->info($raw);
       }
 
-      if ($builder->creates() > 0)
-      {
-        $this->call('optimize');
-      }
     } catch (\Exception $e) {
       $this->error($e->getMessage());
     }

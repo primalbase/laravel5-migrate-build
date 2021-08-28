@@ -9,7 +9,7 @@
     ],
     "require": {
         "doctrine/dbal": "^2.5",
-        "google/apiclient": "^2.0"
+        "google/apiclient": "^2.10"
     },
     "autoload": {
         "psr-4": {
