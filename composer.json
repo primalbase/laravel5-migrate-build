@@ -15,5 +15,13 @@
         "psr-4": {
             "Primalbase\\Migrate\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Primalbase\\Migrate\\MigrateServiceProvider"
+            ],
+            "aliases": {}
+        }
     }
 }
